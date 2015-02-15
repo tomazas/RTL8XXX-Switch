@@ -1,0 +1,11 @@
+Bus Pirate Mode: 2Wire/5Khz/Open Drain
+
+READ CHIP NAME: /\/\[0xb9 /\ 0xc0 /\ 0x13 /\ r _/\ r -/\ ]/\/\
+
+TURN ON ALL GREEN LED: /\/\[0xb8 /\ 0x0a /\ 0x1b /\ 0xff _/\ 0xff -/\ ]/\/\
+
+TURN ON ALL ORANGE LED: /\/\[0xb8 /\ 0x0c /\ 0x1b /\ 0xff _/\ 0xff -/\ ]/\/\
+
+SET PORT MIRROR 1->8: /\/\[0xb8 /\ 0x1c /\ 0x12 /\ 0x70 _/\ 0x0E -/\ ]/\/\
+
+READ PORT MIRROR: /\/\[0xb9 /\ 0x1c /\ 0x12 /\ r _/\ r -/\ ]/\/\
