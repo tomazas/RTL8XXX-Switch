@@ -1,0 +1,9 @@
+# python snippet to generate buspirate commands
+# to write to 24c16 eeprom
+
+def write(byteIndex,data):
+   block_select_bits = (byteIndex>>8)&0b111
+   word_address = byteIndex & 0xff
+   control_byte = 0b10100000 | (block_select_bits<<1)
+   print "[ 0x%X 0x%X 0x%X ]"%(control_byte,word_address,data)
+   
